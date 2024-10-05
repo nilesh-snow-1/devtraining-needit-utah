@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>Add_Attachment_Var</name>
+        <scoped_name>x_58872_needit_Add_Attachment_Var</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 08:39:06</sys_created_on>
+        <sys_id>aa234ab783709610e456bed6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add_Attachment_Var</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_macro_aa234ab783709610e456bed6feaad37a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 08:39:06</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<button style="background: #C0C0C0; border-color: darkgrey; color: #3f464f; height:30; width:70"
+onclick="saveCustomAttachment();return false">
+<b>Attach file</b>
+</button>
+<script>
+function saveCustomAttachment(){
+var tableName = g_form.getTableName();
+var sys_id_input = gel('sysparm_item_guid') ? gel('sysparm_item_guid').value : g_form.getUniqueValue();
+if(tableName === "ni"){
+saveCatAttachment(sys_id_input, 'sc_cart_item');
+}else{
+saveAttachment('sc_req_item', sys_id_input);
+}
+}
+</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

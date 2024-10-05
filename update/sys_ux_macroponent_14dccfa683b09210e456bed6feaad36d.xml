@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>macroponent</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "9e9a9999bc08c532cf101d791dc31667",
+            "type": "MACROPONENT"
+        },
+        "elementId": "playbook_modals_1",
+        "elementLabel": "Playbook Modals",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": null,
+        "preset": {
+            "controllerElementId": "playbook_custom_layout",
+            "disabledEventTargetIds": [
+                
+            ],
+            "id": "32d3bef1efa111dd6a91ed7edae7f04d"
+        },
+        "propertyValues": {},
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "07b0bb09419d26f0af681796bc548f19",
+            "type": "MACROPONENT"
+        },
+        "elementId": "resizable_panes_1",
+        "elementLabel": "Resizable panes",
+        "eventMappings": [
+            
+        ],
+        "extensionPoints": [
+            
+        ],
+        "isHero": false,
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "isNonDestructive": false,
+        "items": [
+            
+        ],
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "1de221250a27afba43b9b3b04594857f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "calendar_1",
+                    "elementLabel": "Calendar 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            
+                        ]
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "availableTimezones": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "label": "GMT",
+                                    "name": "GMT"
+                                }
+                            ]
+                        },
+                        "availableViews": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "label": "Day",
+                                    "type": "Calendar",
+                                    "view": "DAY",
+                                    "viewProvider": "DAY"
+                                },
+                                {
+                                    "label": "Work Week",
+                                    "type": "Calendar",
+                                    "view": "work_week",
+                                    "viewProvider": "COLUMN"
+                                },
+                                {
+                                    "label": "Week",
+                                    "type": "Calendar",
+                                    "view": "WEEK",
+                                    "viewProvider": "WEEK"
+                                },
+                                {
+                                    "label": "Month",
+                                    "type": "Calendar",
+                                    "view": "MONTH",
+                                    "viewProvider": "MONTH"
+                                },
+                                {
+                                    "label": "Day",
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_DAY",
+                                    "viewProvider": "TIMELINE_DAY"
+                                },
+                                {
+                                    "label": "Week",
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_WEEK",
+                                    "viewProvider": "TIMELINE_WEEK"
+                                },
+                                {
+                                    "label": "4 Weeks",
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_MONTH",
+                                    "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN"
+                                }
+                            ]
+                        },
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "contextDate": {
+                            "type": "JSON_LITERAL",
+                            "value": "2020-07-29 10:31:29"
+                        },
+                        "contextualPanelItems": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "id": "agenda-view",
+                                    "open": false
+                                },
+                                {
+                                    "icon": "filter-outline",
+                                    "id": "filter",
+                                    "label": "Filter",
+                                    "open": false
+                                }
+                            ]
+                        },
+                        "currentView": {
+                            "type": "JSON_LITERAL",
+                            "value": "DAY"
+                        },
+                        "customizableLabels": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "agendaEmptyState": {
+                                    "subText": "",
+                                    "text": "No Events Scheduled"
+                                },
+                                "newButton": {
+                                    "text": "New"
+                                }
+                            }
+                        },
+                        "dateFormat": {
+                            "type": "JSON_LITERAL",
+                            "value": "YYYY-MM-DD"
+                        },
+                        "datePickerTemplates": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "work_week": "startMoment ? startMoment.format('ddd, MMM D') + '-' + endMoment.format('ddd, MMM D') : ''"
+                            }
+                        },
+                        "enableNewButton": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "enableNewCalendarClick": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "events": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "bgColor": "nds-orange",
+                                    "childEvents": [
+                                        {
+                                            "bgColor": "#78b0cc",
+                                            "end": "2020-07-29 09:45:00",
+                                            "start": "2020-07-29 07:30:01",
+                                            "title": "ITSM"
+                                        },
+                                        {
+                                            "bgColor": "#ecdf93",
+                                            "end": "2020-07-29 12:45:00",
+                                            "start": "2020-07-29 11:15:01",
+                                            "title": "ITBM"
+                                        },
+                                        {
+                                            "bgColor": "#28b353",
+                                            "end": "2020-07-29 16:00:00",
+                                            "start": "2020-07-29 14:00:01",
+                                            "title": "CSM"
+                                        }
+                                    ],
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 18:00:00",
+                                    "endMS": 1596045600000,
+                                    "group": "Hardware",
+                                    "id": "100",
+                                    "start": "2020-07-29 04:00:01",
+                                    "startMS": 1595995201000,
+                                    "title": "Demo day"
+                                },
+                                {
+                                    "bgColor": "nds-orange",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 08:15:00",
+                                    "endMS": 1596010500000,
+                                    "group": "Hardware",
+                                    "id": "101",
+                                    "start": "2020-07-29 08:00:00",
+                                    "startMS": 1596009600000,
+                                    "title": "Short Event"
+                                },
+                                {
+                                    "bgColor": "nds-orange",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 23:50:00",
+                                    "endMS": 1596066600000,
+                                    "group": "Hardware",
+                                    "id": "102",
+                                    "start": "2020-07-29 23:45:00",
+                                    "startMS": 1596066300000,
+                                    "title": "Short Event 1"
+                                },
+                                {
+                                    "bgColor": "#FF0000",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 06:00:00",
+                                    "endMS": 1596002400000,
+                                    "group": "Hardware",
+                                    "id": "103",
+                                    "start": "2020-07-29 02:20:00",
+                                    "startMS": 1595989200000,
+                                    "title": "Event 2"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 07:00:00",
+                                    "endMS": 1596006000000,
+                                    "group": "Hardware",
+                                    "id": "104",
+                                    "start": "2020-07-29 03:30:01",
+                                    "startMS": 1595993401000,
+                                    "title": "Event 3"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 07:30:00",
+                                    "endMS": 1596007800000,
+                                    "group": "Hardware",
+                                    "id": "105",
+                                    "start": "2020-07-29 02:50:01",
+                                    "startMS": 1595991001000,
+                                    "title": "Event 4"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 07:00:00",
+                                    "endMS": 1596006000000,
+                                    "group": "HardDisk",
+                                    "id": "106",
+                                    "start": "2020-07-29 03:30:01",
+                                    "startMS": 1595993401000,
+                                    "title": "Event 3_1"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 07:30:00",
+                                    "endMS": 1596007800000,
+                                    "group": "HardDisk",
+                                    "id": "107",
+                                    "start": "2020-07-29 02:50:01",
+                                    "startMS": 1595991001000,
+                                    "title": "Event 4_1"
+                                },
+                                {
+                                    "bgColor": "nds-purple",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 10:00:00",
+                                    "endMS": 1596016800000,
+                                    "group": "Software",
+                                    "id": "108",
+                                    "start": "2020-07-29 08:00:01",
+                                    "startMS": 1596009601000,
+                                    "title": "Event 5"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 10:00:00",
+                                    "endMS": 1596016800000,
+                                    "group": "Software",
+                                    "id": "109",
+                                    "start": "2020-07-29 08:00:01",
+                                    "startMS": 1596009601000,
+                                    "title": "Event 6"
+                                },
+                                {
+                                    "bgColor": "red",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 13:30:00",
+                                    "endMS": 1596029400000,
+                                    "group": "ServiceDesk",
+                                    "id": "110",
+                                    "start": "2020-07-29 12:00:01",
+                                    "startMS": 1596024001000,
+                                    "title": "Event 7"
+                                },
+                                {
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-29 12:01:01",
+                                    "endMS": 1596024061000,
+                                    "group": "ServiceDesk",
+                                    "id": "111",
+                                    "start": "2020-07-29 12:00:01",
+                                    "startMS": 1596024001000,
+                                    "title": "MIN HEIGHT"
+                                },
+                                {
+                                    "end": "2020-07-29 15:00:00",
+                                    "endMS": 1596034800000,
+                                    "group": "ServiceDesk",
+                                    "id": "112",
+                                    "start": "2020-07-29 12:00:01",
+                                    "startMS": 1596024001000,
+                                    "title": "Event 8"
+                                },
+                                {
+                                    "bgColor": "#94baf7",
+                                    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ha",
+                                    "end": "2020-07-30 03:00:00",
+                                    "endMS": 1596078000000,
+                                    "gradientColor1": "#ccc",
+                                    "group": "ServiceDesk",
+                                    "id": "113",
+                                    "start": "2020-07-29 02:00:00",
+                                    "startMS": 1595988000000,
+                                    "title": "Event 9 multi day - non overlapping"
+                                },
+                                {
+                                    "end": "2020-07-30 15:00:00",
+                                    "endMS": 1596121200000,
+                                    "gradientColor1": "#0e78c4",
+                                    "gradientColor2": "#68abda",
+                                    "group": "ServiceDesk",
+                                    "id": "114",
+                                    "start": "2020-07-30 10:00:01",
+                                    "startMS": 1596103201000,
+                                    "textColor": "#fff",
+                                    "title": "Event 9_1 With Gradient"
+                                },
+                                {
+                                    "end": "2020-07-31 04:10:00",
+                                    "endMS": 1596168600000,
+                                    "group": "Network",
+                                    "id": "115",
+                                    "start": "2020-07-31 01:40:00",
+                                    "startMS": 1596159600000,
+                                    "title": "Event 10"
+                                },
+                                {
+                                    "end": "2020-07-31 08:10:00",
+                                    "endMS": 1596183000000,
+                                    "group": "Network",
+                                    "id": "116",
+                                    "start": "2020-07-31 04:00:00",
+                                    "startMS": 1596168000000,
+                                    "title": "Event 11"
+                                },
+                                {
+                                    "bgColor": "#ff0000",
+                                    "end": "2020-07-31 11:10:00",
+                                    "endMS": 1596193800000,
+                                    "group": "Software",
+                                    "id": "117",
+                                    "readOnly": true,
+                                    "start": "2020-07-31 08:00:00",
+                                    "startMS": 1596182400000,
+                                    "title": "Event 12 Read Only"
+                                },
+                                {
+                                    "allowMove": false,
+                                    "allowResize": true,
+                                    "bgColor": "#ecdf93",
+                                    "end": "2020-07-31 16:10:00",
+                                    "endMS": 1596211800000,
+                                    "group": "Software",
+                                    "id": "118",
+                                    "start": "2020-07-31 11:00:00",
+                                    "startMS": 1596193200000,
+                                    "title": "Event 13 Only resizable"
+                                },
+                                {
+                                    "allowMove": false,
+                                    "allowResize": true,
+                                    "borderColor": "#ccc",
+                                    "end": "2020-07-31 21:10:00",
+                                    "endMS": 1596229800000,
+                                    "gradientColor1": "#ccc",
+                                    "gradientColor2": "#fff",
+                                    "group": "Software",
+                                    "id": "119",
+                                    "start": "2020-07-31 19:00:00",
+                                    "startMS": 1596222000000,
+                                    "title": "Event 13_1 With Gradient"
+                                },
+                                {
+                                    "allowMove": true,
+                                    "allowResize": false,
+                                    "bgColor": "#94baf7",
+                                    "end": "2020-08-02 06:00:00",
+                                    "endMS": 1596348000000,
+                                    "group": "MIM",
+                                    "id": "120",
+                                    "start": "2020-08-02 02:00:00",
+                                    "startMS": 1596333600000,
+                                    "title": "Event 14 Only be moved"
+                                },
+                                {
+                                    "end": "2020-08-02 05:40:00",
+                                    "endMS": 1596346800000,
+                                    "group": "MIM",
+                                    "id": "121",
+                                    "start": "2020-08-02 02:30:00",
+                                    "startMS": 1596335400000,
+                                    "title": "Event 15"
+                                },
+                                {
+                                    "end": "2020-08-02 11:00:00",
+                                    "endMS": 1596366000000,
+                                    "group": "MIM",
+                                    "id": "122",
+                                    "start": "2020-08-02 07:00:00",
+                                    "startMS": 1596351600000,
+                                    "title": "Event 16"
+                                },
+                                {
+                                    "end": "2020-08-02 15:10:00",
+                                    "endMS": 1596381000000,
+                                    "group": "MIM",
+                                    "id": "123",
+                                    "start": "2020-08-02 07:10:00",
+                                    "startMS": 1596352200000,
+                                    "title": "Event 17"
+                                },
+                                {
+                                    "end": "2020-08-02 19:10:00",
+                                    "endMS": 1596395400000,
+                                    "group": "MIM",
+                                    "id": "124",
+                                    "start": "2020-08-02 07:15:00",
+                                    "startMS": 1596352500000,
+                                    "title": "Event 18"
+                                },
+                                {
+                                    "bgColor": "nds-brown",
+                                    "end": "2020-08-02 05:40:00",
+                                    "endMS": 1596346800000,
+                                    "group": "TechinicalPlan",
+                                    "id": "125",
+                                    "start": "2020-08-02 02:30:00",
+                                    "startMS": 1596335400000,
+                                    "title": "Event 15_1"
+                                },
+                                {
+                                    "end": "2020-08-02 11:00:00",
+                                    "endMS": 1596366000000,
+                                    "group": "TechnicalPlan",
+                                    "id": "126",
+                                    "start": "2020-08-02 07:00:00",
+                                    "startMS": 1596351600000,
+                                    "title": "Event 16_1"
+                                },
+                                {
+                                    "end": "2020-08-02 15:10:00",
+                                    "endMS": 1596381000000,
+                                    "group": "CommunicationPlan",
+                                    "id": "127",
+                                    "start": "2020-08-02 07:10:00",
+                                    "startMS": 1596352200000,
+                                    "title": "Event 17_1"
+                                },
+                                {
+                                    "end": "2020-08-02 19:10:00",
+                                    "endMS": 1596395400000,
+                                    "group": "CommuinicationPlan",
+                                    "id": "128",
+                                    "start": "2020-08-02 07:15:00",
+                                    "startMS": 1596352500000,
+                                    "title": "Event 18_1"
+                                },
+                                {
+                                    "bgColor": "nds-teal",
+                                    "end": "2020-08-02 05:40:00",
+                                    "endMS": 1596346800000,
+                                    "group": "ConferenceTask",
+                                    "id": "129",
+                                    "start": "2020-08-02 02:30:00",
+                                    "startMS": 1596335400000,
+                                    "title": "Event 15_2"
+                                },
+                                {
+                                    "end": "2020-08-02 11:00:00",
+                                    "endMS": 1596366000000,
+                                    "group": "ConferenceTask",
+                                    "id": "130",
+                                    "start": "2020-08-02 07:00:00",
+                                    "startMS": 1596351600000,
+                                    "title": "Event 16_2"
+                                },
+                                {
+                                    "end": "2020-08-02 15:10:00",
+                                    "endMS": 1596381000000,
+                                    "group": "CommunicationTask",
+                                    "id": "131",
+                                    "start": "2020-08-02 07:10:00",
+                                    "startMS": 1596352200000,
+                                    "title": "Event 17_2"
+                                },
+                                {
+                                    "end": "2020-08-02 19:10:00",
+                                    "endMS": 1596395400000,
+                                    "group": "CommTask2",
+                                    "id": "132",
+                                    "start": "2020-08-02 07:15:00",
+                                    "startMS": 1596352500000,
+                                    "title": "Event 18_2"
+                                },
+                                {
+                                    "end": "2020-08-02 05:40:00",
+                                    "endMS": 1596346800000,
+                                    "group": "SMSTask",
+                                    "id": "133",
+                                    "start": "2020-08-02 02:30:00",
+                                    "startMS": 1596335400000,
+                                    "title": "Event 15_3"
+                                },
+                                {
+                                    "end": "2020-08-02 11:00:00",
+                                    "endMS": 1596366000000,
+                                    "group": "SMSTask",
+                                    "id": "134",
+                                    "start": "2020-08-02 07:00:00",
+                                    "startMS": 1596351600000,
+                                    "title": "Event 16_3"
+                                },
+                                {
+                                    "bgColor": "nds-gray",
+                                    "end": "2020-08-02 15:10:00",
+                                    "endMS": 1596381000000,
+                                    "group": "MailTask",
+                                    "id": "135",
+                                    "start": "2020-08-02 07:10:00",
+                                    "startMS": 1596352200000,
+                                    "title": "Event 17_3"
+                                },
+                                {
+                                    "end": "2020-08-05 19:10:00",
+                                    "endMS": 1596654600000,
+                                    "group": "MailTask",
+                                    "id": "136",
+                                    "start": "2020-08-05 07:15:00",
+                                    "startMS": 1596611700000,
+                                    "title": "Event 18_3"
+                                },
+                                {
+                                    "end": "2020-08-05 19:10:00",
+                                    "endMS": 1596654600000,
+                                    "group": "MailTask",
+                                    "id": "137",
+                                    "start": "2020-08-05 07:15:00",
+                                    "startMS": 1596611700000,
+                                    "title": "Event 19_3"
+                                },
+                                {
+                                    "end": "2020-08-28 19:10:00",
+                                    "endMS": 1598641800000,
+                                    "group": "MailTask",
+                                    "id": "138",
+                                    "start": "2020-08-28 07:15:00",
+                                    "startMS": 1598598900000,
+                                    "title": "Event 20_3"
+                                },
+                                {
+                                    "end": "2020-08-28 19:10:00",
+                                    "endMS": 1598641800000,
+                                    "group": "MailTask",
+                                    "id": "139",
+                                    "start": "2020-08-28 07:15:00",
+                                    "startMS": 1598598900000,
+                                    "title": "Event 21_3"
+                                },
+                                {
+                                    "end": "2020-08-06 00:00:00",
+                                    "endMS": 1596672000000,
+                                    "group": "Hardware",
+                                    "id": "140",
+                                    "start": "2020-08-05 00:00:00",
+                                    "startMS": 1596585600000,
+                                    "title": "Event 22"
+                                }
+                            ]
+                        },
+                        "externalEvent": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "firstDayOfWeek": {
+                            "type": "JSON_LITERAL",
+                            "value": 0
+                        },
+                        "focusedEventId": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "hideKeyboardShortcuts": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hotkeys": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "eventName": "markspan",
+                                    "info": {
+                                        "next": {
+                                            "description": "Select next mark span event",
+                                            "keyName": "M"
+                                        },
+                                        "previous": {
+                                            "description": "Select previous mark span event",
+                                            "keyName": "Shift + M"
+                                        }
+                                    },
+                                    "keyCode": 77,
+                                    "name": "M",
+                                    "selector": ".mark-span",
+                                    "view": "COLUMN"
+                                }
+                            ]
+                        },
+                        "locale": {
+                            "type": "JSON_LITERAL",
+                            "value": "default"
+                        },
+                        "manageContextualPanel": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "markSpans": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "$$mid": 0,
+                                    "bgColor": "rgb(251, 236, 207)",
+                                    "block": false,
+                                    "endDate": "2020-01-01",
+                                    "occurrenceDays": [
+                                        0
+                                    ],
+                                    "startDate": "2019-01-01",
+                                    "textColor": "blue",
+                                    "zones": [
+                                        {
+                                            "endTime": "23:59:59",
+                                            "startTime": "00:00:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$mid": 1,
+                                    "block": true,
+                                    "endDate": "2019-11-01",
+                                    "occurrenceDays": [
+                                        6
+                                    ],
+                                    "startDate": "2019-08-01",
+                                    "title": "Blackout",
+                                    "zones": [
+                                        {
+                                            "endTime": "04:00:00",
+                                            "startTime": "01:00:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$mid": 2,
+                                    "block": true,
+                                    "endDate": "2019-11-01",
+                                    "inclusiveCheck": true,
+                                    "occurrenceDays": [
+                                        6
+                                    ],
+                                    "startDate": "2019-08-01",
+                                    "title": "Blackout Inclusive",
+                                    "zones": [
+                                        {
+                                            "endTime": "20:00:00",
+                                            "startTime": "09:00:00"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "$$mid": 3,
+                                    "block": true,
+                                    "occurrenceDays": [
+                                        2
+                                    ],
+                                    "timezone": "GMT",
+                                    "title": "Maintenance - GMT (Full Day)",
+                                    "zones": [
+                                        {
+                                            "endTime": "23:59:59",
+                                            "startTime": "00:00:00"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "popoverContentState": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "value": "empty"
+                            }
+                        },
+                        "popoverEnabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sections": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "children": [
+                                        {
+                                            "id": "Software",
+                                            "markspans": [
+                                                {
+                                                    "color": "#94baf7",
+                                                    "content": "",
+                                                    "from": 9,
+                                                    "spans": 4
+                                                },
+                                                {
+                                                    "color": "#e6f7c7",
+                                                    "content": "",
+                                                    "from": 13,
+                                                    "spans": 1
+                                                },
+                                                {
+                                                    "color": "#ecdf93",
+                                                    "content": "",
+                                                    "from": 14,
+                                                    "spans": 4
+                                                }
+                                            ],
+                                            "title": "Appointment Booking"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "id": "Hardware",
+                                                    "title": "Readonly Calendar"
+                                                },
+                                                {
+                                                    "id": "HardDisk",
+                                                    "markspans": [
+                                                        {
+                                                            "color": "#ffbdc5",
+                                                            "from": 2,
+                                                            "spans": 8
+                                                        },
+                                                        {
+                                                            "color": "#e6f7c7",
+                                                            "from": 8,
+                                                            "spans": 2
+                                                        }
+                                                    ],
+                                                    "title": "Editable Calendar"
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "id": "Network",
+                                                            "markspans": [
+                                                                {
+                                                                    "color": "#ccc",
+                                                                    "from": 8,
+                                                                    "spans": 8,
+                                                                    "style": {
+                                                                        "backgroundImage": "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "color": "#ffbdc5",
+                                                                    "from": 8,
+                                                                    "spans": 2
+                                                                }
+                                                            ],
+                                                            "title": "Reschedule Events"
+                                                        },
+                                                        {
+                                                            "id": "Network1",
+                                                            "title": "Extend/Shrink Events"
+                                                        }
+                                                    ],
+                                                    "id": "NetworkGroup",
+                                                    "isCollapsed": false,
+                                                    "showHeader": true,
+                                                    "title": "Drag and Drop support"
+                                                }
+                                            ],
+                                            "id": "HardwareSection",
+                                            "isCollapsed": false,
+                                            "showHeader": true,
+                                            "title": "Calendar view"
+                                        },
+                                        {
+                                            "id": "ServiceDesk",
+                                            "title": "Timeline View"
+                                        }
+                                    ],
+                                    "id": "ITSM_IDC",
+                                    "isCollapsed": false,
+                                    "showHeader": true,
+                                    "textColor": "",
+                                    "title": "Calendar Component"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "id": "MIM",
+                                            "title": "MIM"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "id": "CommunicationTask",
+                                                    "title": "View My Shifts"
+                                                },
+                                                {
+                                                    "children": [
+                                                        {
+                                                            "id": "SMSTask",
+                                                            "title": "View overlapping rotas"
+                                                        },
+                                                        {
+                                                            "children": [
+                                                                {
+                                                                    "id": "MailTask",
+                                                                    "title": "Gaps"
+                                                                }
+                                                            ],
+                                                            "id": "CommunicationPlan",
+                                                            "isCollapsed": false,
+                                                            "showHeader": true,
+                                                            "title": "8-5 Shifts"
+                                                        }
+                                                    ],
+                                                    "id": "ConferenceTask",
+                                                    "isCollapsed": false,
+                                                    "showHeader": true,
+                                                    "title": "Create Rotas"
+                                                }
+                                            ],
+                                            "id": "TechnicalPlan",
+                                            "isCollapsed": false,
+                                            "showHeader": true,
+                                            "title": "On Call Application"
+                                        }
+                                    ],
+                                    "id": "ITBM_IDC",
+                                    "isCollapsed": false,
+                                    "showHeader": true,
+                                    "textColor": "",
+                                    "title": "Mobile Applications"
+                                }
+                            ]
+                        },
+                        "security": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "allowCreate": true,
+                                "allowMove": true,
+                                "allowResize": true,
+                                "readOnly": false
+                            }
+                        },
+                        "splitMultiDayEvent": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "timeFormat": {
+                            "type": "JSON_LITERAL",
+                            "value": "HH:mm"
+                        },
+                        "timelineVerticalLines": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                {
+                                    "inlineStyle": {
+                                        "backgroundColor": "#fff",
+                                        "backgroundImage": "repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px)",
+                                        "backgroundPosition": "0% 0%",
+                                        "backgroundRepeat": "repeat-y",
+                                        "backgroundSize": "100% 88px",
+                                        "height": "100%",
+                                        "margin": "0 auto",
+                                        "width": "2px"
+                                    },
+                                    "meta": {},
+                                    "utcMS": 1596006089149
+                                },
+                                {
+                                    "inlineStyle": {
+                                        "height": "100%",
+                                        "margin": "0 auto",
+                                        "width": "2px"
+                                    },
+                                    "meta": {
+                                        "id": 1
+                                    },
+                                    "utcMS": 1595991689149
+                                }
+                            ]
+                        },
+                        "timezone": {
+                            "type": "JSON_LITERAL",
+                            "value": "GMT"
+                        },
+                        "viewSettings": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "DAY": {
+                                    "label": "Day",
+                                    "snapGranularity": 15,
+                                    "splitRow": 2,
+                                    "type": "Calendar",
+                                    "view": "DAY",
+                                    "viewProvider": "DAY"
+                                },
+                                "TIMELINE_DAY": {
+                                    "animation": false,
+                                    "enableColumnNavigation": false,
+                                    "eventHeight": 20,
+                                    "eventMinWidthMS": 300000,
+                                    "groupBy": "group",
+                                    "label": "Day",
+                                    "noScrolling": false,
+                                    "scrollDebounceTime": 100,
+                                    "snapGranularity": 15,
+                                    "splitRow": 2,
+                                    "timeRowSpan": 60,
+                                    "titleWidth": 240,
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_DAY",
+                                    "viewName": "TIMELINE_DAY",
+                                    "viewProvider": "TIMELINE_DAY",
+                                    "xSize": 24,
+                                    "xStart": 0,
+                                    "xStep": 60,
+                                    "xUnitName": "minutes"
+                                },
+                                "TIMELINE_MONTH": {
+                                    "animation": false,
+                                    "columnTimeframe": 1,
+                                    "columnUnit": "weeks",
+                                    "columnsCount": 4,
+                                    "enableColumnNavigation": true,
+                                    "eventHeight": 20,
+                                    "eventMinWidthMS": -1,
+                                    "groupBy": "group",
+                                    "hideSidebarOnLoad": true,
+                                    "label": "4 Weeks",
+                                    "noScrolling": false,
+                                    "scrollDebounceTime": 100,
+                                    "titleWidth": 240,
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_MONTH",
+                                    "viewLabel": "4 Weeks",
+                                    "viewName": "TIMELINE_CONFIGURABLE_COLUMN",
+                                    "viewProvider": "TIMELINE_CONFIGURABLE_COLUMN",
+                                    "xSize": 4,
+                                    "xStart": 0,
+                                    "xStep": 1,
+                                    "xUnitName": "weeks"
+                                },
+                                "TIMELINE_WEEK": {
+                                    "animation": false,
+                                    "enableColumnNavigation": false,
+                                    "eventHeight": 20,
+                                    "eventMinWidthMS": 3600000,
+                                    "groupBy": "group",
+                                    "label": "Week",
+                                    "noScrolling": false,
+                                    "scrollDebounceTime": 100,
+                                    "snapGranularity": 480,
+                                    "splitRow": 3,
+                                    "titleWidth": 240,
+                                    "type": "Timeline",
+                                    "view": "TIMELINE_WEEK",
+                                    "viewName": "TIMELINE_WEEK",
+                                    "viewProvider": "TIMELINE_WEEK",
+                                    "xSize": 7,
+                                    "xStart": 0,
+                                    "xStep": 1,
+                                    "xUnitName": "days"
+                                },
+                                "WEEK": {
+                                    "label": "Week",
+                                    "snapGranularity": 15,
+                                    "splitRow": 2,
+                                    "type": "Calendar",
+                                    "view": "WEEK",
+                                    "viewProvider": "WEEK"
+                                },
+                                "work_week": {
+                                    "label": "Work Week",
+                                    "numberOfDays": 5,
+                                    "snapGranularity": 15,
+                                    "splitRow": 2,
+                                    "type": "Calendar",
+                                    "view": "work_week",
+                                    "viewProvider": "COLUMN"
+                                }
+                            }
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "48058b886ca5dc3a5cb3f5de8bc2f40c",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "audio_player_2",
+                    "elementLabel": "Audio player 2",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "autoplay": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "loop": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "muted": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sources": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                "connect_alert.mp3"
+                            ]
+                        }
+                    },
+                    "slot": "timeline-section-title",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "259e0221ff18a75c5f5f0fb28fa5d32f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "calendar_report_1",
+                    "elementLabel": "Calendar Report 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "componentDescription": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "componentTitle": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "encodedQuery": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "endDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": "closed_at"
+                        },
+                        "eventColor": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "eventDisplayFields": {
+                            "type": "JSON_LITERAL",
+                            "value": "number,short_description"
+                        },
+                        "filterConfigurations": {
+                            "binding": {
+                                "address": [
+                                    "parFilters"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "followFilters": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "reportSource": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "showDescription": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showFilterOverview": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "startDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": "opened_at"
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": "task"
+                        },
+                        "viewType": {
+                            "type": "JSON_LITERAL",
+                            "value": "MONTH"
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "7f6003388c40468c7b1bf52fc0171716",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "agent_chat_1",
+                    "elementLabel": "Agent chat 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "interaction": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "user": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "259e0221ff18a75c5f5f0fb28fa5d32f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "calendar_report_2",
+                    "elementLabel": "Calendar Report 2",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "componentDescription": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "componentTitle": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "encodedQuery": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "endDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": "closed_at"
+                        },
+                        "eventColor": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "eventDisplayFields": {
+                            "type": "JSON_LITERAL",
+                            "value": "number,short_description"
+                        },
+                        "filterConfigurations": {
+                            "binding": {
+                                "address": [
+                                    "parFilters"
+                                ]
+                            },
+                            "type": "STATE_BINDING"
+                        },
+                        "followFilters": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "reportSource": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "showDescription": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "showFilterOverview": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "startDateField": {
+                            "type": "JSON_LITERAL",
+                            "value": "opened_at"
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": "task"
+                        },
+                        "viewType": {
+                            "type": "JSON_LITERAL",
+                            "value": "MONTH"
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "7e0d76c668b58227fa9a029419826203",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "playbook_activity_picker_1",
+                    "elementLabel": "Playbook Activity Picker",
+                    "eventMappings": [
+                        
+                    ],
+                    "extensionPoints": [
+                        
+                    ],
+                    "isHero": false,
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "isNonDestructive": false,
+                    "items": [
+                        
+                    ],
+                    "overrides": null,
+                    "preset": {
+                        "controllerElementId": "playbook_custom_layout",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "1143cf52cb075da23298da1cdc43b8d1"
+                    },
+                    "propertyValues": {
+                        "daClientActionContract": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "showStages": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        }
+                    },
+                    "slot": "left",
+                    "styles": {
+                        "height": ""
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "77cb9632116e67049295c7c35d6a6147",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "activity_stream_compose_1",
+                    "elementLabel": "Activity Stream Compose 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": {
+                        "controllerElementId": "record_1",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "16c3b101c9288f7ea8bc2e3ac6b57b19"
+                    },
+                    "slot": "right-header-btns",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "9962aa7c77c9e928fe1cda51fcda7f2e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "playbook_activity_viewer_1",
+                    "elementLabel": "Playbook Activity Viewer",
+                    "eventMappings": [
+                        
+                    ],
+                    "extensionPoints": [
+                        
+                    ],
+                    "isHero": false,
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "isNonDestructive": false,
+                    "items": [
+                        
+                    ],
+                    "overrides": null,
+                    "preset": {
+                        "controllerElementId": "playbook_custom_layout",
+                        "disabledEventTargetIds": [
+                            
+                        ],
+                        "id": "b65b39aad0ea8e534bea29391805a6cf"
+                    },
+                    "propertyValues": {
+                        "activityView": {
+                            "type": "JSON_LITERAL",
+                            "value": "focused"
+                        },
+                        "daClientActionContract": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "enableFullWidthCards": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showFilteredCount": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        }
+                    },
+                    "slot": "right",
+                    "styles": {
+                        "border-color": "RGB(var(--now-color--neutral-5))",
+                        "border-radius": "4px",
+                        "border-style": "id",
+                        "border-width": "var(--now-static-space--xxs)",
+                        "height": "100%"
+                    }
+                },
+                {
+                    "definition": {
+                        "id": "0313682da64ddc3cca24c56f639e409d",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "button_stateful_1",
+                    "elementLabel": "Button stateful 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "button": {
+                                    "aria-label": "Search",
+                                    "aria-pressed": "false",
+                                    "role": "button"
+                                }
+                            }
+                        },
+                        "configRole": {
+                            "type": "JSON_LITERAL",
+                            "value": "button"
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePadding": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "highContrast": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "highlighted": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "icon": {
+                            "type": "JSON_LITERAL",
+                            "value": "magnifying-glass-plus-outline"
+                        },
+                        "selected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "tooltipContent": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Start search"
+                            }
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "secondary"
+                        }
+                    },
+                    "slot": "custom-icon",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "d37ce8abca89d02905fed903c8e34d8e",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "button_1",
+                    "elementLabel": "Button 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "configAria": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "disabled": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "icon": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "label": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Button"
+                            }
+                        },
+                        "size": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "tooltipContent": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "Enter a label"
+                            }
+                        },
+                        "variant": {
+                            "type": "JSON_LITERAL",
+                            "value": "secondary"
+                        }
+                    },
+                    "slot": "bottom",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "48058b886ca5dc3a5cb3f5de8bc2f40c",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "audio_player_1",
+                    "elementLabel": "Audio player 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "autoplay": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "loop": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "muted": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "sources": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                "connect_alert.mp3"
+                            ]
+                        }
+                    },
+                    "slot": "top",
+                    "styles": null
+                }
+            ],
+            "layout": null
+        },
+        "propertyValues": {
+            "actionBar": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "actionBarConfig": {
+                "container": {
+                    "leftIcon": {
+                        "type": "JSON_LITERAL",
+                        "value": "record-activity-details-fill"
+                    },
+                    "middleIcon": {
+                        "type": "JSON_LITERAL",
+                        "value": "record-activity-stream-outline"
+                    },
+                    "rightIcon": {
+                        "type": "JSON_LITERAL",
+                        "value": "record-activity-outline"
+                    }
+                },
+                "type": "MAP_CONTAINER"
+            },
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "bottomPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            },
+            "defaultDisplayedPane": {
+                "type": "JSON_LITERAL",
+                "value": "both"
+            },
+            "defaultDividerPosition": {
+                "type": "JSON_LITERAL",
+                "value": "30"
+            },
+            "disabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "dividerStyles": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "leftPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 30, \"minPixels\": 100}"
+            },
+            "panesPosition": {
+                "type": "JSON_LITERAL",
+                "value": "left-right"
+            },
+            "rightPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 70, \"minPixels\": 100}"
+            },
+            "topPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "d356d14b6e293a3020a244b63d278d8f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "column_layout_1",
+        "elementLabel": "Column layout 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d356d14b6e293a3020a244b63d278d8f",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "__cmbbiddkhghaaaaeeddccvhhslggqxccbbcj__column_1",
+                    "elementLabel": "__cmbbiddkhghaaaaeeddccvhhslggqxccbbcj__Column 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "overrides": {
+                        "composition": [
+                            {
+                                "definition": {
+                                    "id": "35a44d929eb09776cebd167707481125",
+                                    "type": "MACROPONENT"
+                                },
+                                "elementId": "button_circular_1",
+                                "elementLabel": "Button circular 1",
+                                "eventMappings": [
+                                    
+                                ],
+                                "isHidden": {
+                                    "type": "JSON_LITERAL",
+                                    "value": null
+                                },
+                                "overrides": {
+                                    "composition": [
+                                        
+                                    ]
+                                },
+                                "preset": null,
+                                "propertyValues": {
+                                    "configAria": {
+                                        "type": "JSON_LITERAL",
+                                        "value": {
+                                            "aria-label": "Chat"
+                                        }
+                                    },
+                                    "disabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "hasShadow": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "icon": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "chat-fill"
+                                    },
+                                    "tooltipContent": {
+                                        "type": "TRANSLATION_LITERAL",
+                                        "value": {
+                                            "code": null,
+                                            "comment": "",
+                                            "message": "Open chat window"
+                                        }
+                                    }
+                                },
+                                "slot": null,
+                                "styles": null
+                            }
+                        ],
+                        "layout": {
+                            "default": {
+                                "children": null,
+                                "items": [
+                                    {
+                                        "element_id": "button_circular_1",
+                                        "styles": {}
+                                    }
+                                ],
+                                "root": null,
+                                "rules": {
+                                    "flex-direction": "row"
+                                },
+                                "styles": {
+                                    "align-items": "flex-start",
+                                    "box-sizing": "border-box",
+                                    "flex-direction": "column",
+                                    "height": "100%",
+                                    "justify-content": "flex-start",
+                                    "overflow": "auto"
+                                },
+                                "type": "flex"
+                            },
+                            "version": "3.0.0"
+                        }
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "contents"
+                        }
+                    },
+                    "scratchPad": {
+                        "uib": {
+                            "layout": {
+                                "column": {
+                                    "styleConfig": {
+                                        "external": {
+                                            "display": "contents",
+                                            "width": "100%"
+                                        },
+                                        "internal": {
+                                            "align-items": "flex-start",
+                                            "box-sizing": "border-box",
+                                            "flex-direction": "column",
+                                            "height": "100%",
+                                            "justify-content": "flex-start",
+                                            "overflow": "auto"
+                                        }
+                                    }
+                                },
+                                "type": "column"
+                            },
+                            "version": "1.0.0"
+                        }
+                    },
+                    "slot": null,
+                    "styles": null
+                }
+            ],
+            "layout": {
+                "default": {
+                    "children": null,
+                    "isInline": null,
+                    "items": [
+                        {
+                            "element_id": "__cmbbiddkhghaaaaeeddccvhhslggqxccbbcj__column_1",
+                            "styles": {
+                                "display": "contents",
+                                "width": "100%"
+                            }
+                        }
+                    ],
+                    "root": null,
+                    "rules": null,
+                    "styles": {
+                        "box-sizing": "border-box",
+                        "grid-template-columns": "100fr",
+                        "grid-template-rows": "1fr",
+                        "width": "100%"
+                    },
+                    "type": "grid"
+                },
+                "queries": [
+                    {
+                        "layout": {
+                            "children": null,
+                            "isInline": null,
+                            "items": [
+                                
+                            ],
+                            "root": null,
+                            "rules": null,
+                            "styles": {
+                                "box-sizing": "border-box",
+                                "grid-template-columns": "1fr",
+                                "grid-template-rows": "1fr",
+                                "height": "fit-content",
+                                "max-height": "max-content",
+                                "min-height": "min-content",
+                                "width": "100%"
+                            },
+                            "type": "grid"
+                        },
+                        "query": {
+                            "max-width": 640
+                        }
+                    }
+                ],
+                "version": "3.0.0"
+            }
+        },
+        "preset": null,
+        "propertyValues": {
+            "slotWrapperBehavior": {
+                "type": "JSON_LITERAL",
+                "value": "contents"
+            }
+        },
+        "scratchPad": {
+            "uib": {
+                "layout": {
+                    "columnSection": {
+                        "breakpoints": [
+                            {
+                                "behavior": "stack",
+                                "max-width": 640,
+                                "styles": {
+                                    "box-sizing": "border-box",
+                                    "grid-template-columns": "1fr",
+                                    "grid-template-rows": "1fr",
+                                    "height": "fit-content",
+                                    "max-height": "max-content",
+                                    "min-height": "min-content",
+                                    "width": "100%"
+                                }
+                            }
+                        ],
+                        "children": [
+                            {
+                                "columnNumber": 1,
+                                "unit": "%",
+                                "width": 100
+                            }
+                        ],
+                        "id": "UIB_COLUMN_SECTION_SINGLE_COLUMN_SECTION",
+                        "styleConfig": {
+                            "external": {
+                                "display": "contents",
+                                "width": "100%"
+                            },
+                            "internal": {
+                                "box-sizing": "border-box",
+                                "grid-template-rows": "1fr",
+                                "width": "100%"
+                            }
+                        }
+                    },
+                    "type": "columnSection"
+                },
+                "version": "1.0.0"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "cachePolicy": null,
+        "definition": {
+            "id": "b47c9480075111106670d9630ad300fe",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {
+            "record": "record_1"
+        },
+        "elementId": "playbook_custom_layout",
+        "elementLabel": "Playbook Custom Layout",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "inputParentSysId": {
+                "binding": {
+                    "address": [
+                        "sysId"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputParentTable": {
+                "binding": {
+                    "address": [
+                        "table"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputPlaybookExperience": {
+                "binding": {
+                    "address": [
+                        "experience"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "inputRecordGeneratorQuery": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "inputSelectedActivityContextId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "inputSelectedPlaybookContextId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "inputSelectedStageContextId": {
+                "type": "JSON_LITERAL",
+                "value": null
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "cachePolicy": null,
+        "definition": {
+            "id": "029f04e053610110ac9bddeeff7b1294",
+            "type": "CONTROLLER"
+        },
+        "dependencies": {},
+        "elementId": "record_1",
+        "elementLabel": "Record 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "activityLogs": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "detailsContext": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "fields": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputExtraParams": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputQuery": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inputSysId": {
+                "type": "JSON_LITERAL",
+                "value": "-1"
+            },
+            "inputTable": {
+                "type": "JSON_LITERAL",
+                "value": "interaction"
+            },
+            "screen": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "selectedTabIndex": {
+                "type": "JSON_LITERAL",
+                "value": 0
+            },
+            "userPrefs": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "default view"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "isInline": null,
+        "items": [
+            {
+                "element_id": "playbook_modals_1",
+                "styles": {}
+            },
+            {
+                "element_id": "resizable_panes_1",
+                "styles": {
+                    "flex": "1 1 auto",
+                    "max-height": "100%",
+                    "width": "100%"
+                }
+            },
+            {
+                "element_id": "column_layout_1",
+                "styles": {
+                    "display": "contents",
+                    "width": "100%"
+                }
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "display": "flex",
+            "flex-direction": "column",
+            "height": "100vh",
+            "max-height": "100%"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "Table",
+        "mandatory": false,
+        "name": "table",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "sysId",
+        "mandatory": false,
+        "name": "sysId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "playbookExperienceId",
+        "mandatory": false,
+        "name": "playbookExperienceId",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedPlaybook",
+        "mandatory": false,
+        "name": "selectedPlaybook",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedStage",
+        "mandatory": false,
+        "name": "selectedStage",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": null,
+        "disabled": false,
+        "fieldType": "string",
+        "label": "selectedActivity",
+        "mandatory": false,
+        "name": "selectedActivity",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    },
+    {
+        "defaultValue": "",
+        "description": "",
+        "disabled": false,
+        "fieldType": "string",
+        "label": "experience",
+        "mandatory": false,
+        "name": "experience",
+        "readOnly": true,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "4 Weeks",
+  "comment" : ""
+}, {
+  "message" : "Button",
+  "comment" : ""
+}, {
+  "message" : "Day",
+  "comment" : ""
+}, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
+  "message" : "Filter",
+  "comment" : ""
+}, {
+  "message" : "GMT",
+  "comment" : ""
+}, {
+  "message" : "Month",
+  "comment" : ""
+}, {
+  "message" : "Open chat window",
+  "comment" : ""
+}, {
+  "message" : "Start search",
+  "comment" : ""
+}, {
+  "message" : "Week",
+  "comment" : ""
+}, {
+  "message" : "Work Week",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config/>
+        <state_properties>[
+    
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 16:45:36</sys_created_on>
+        <sys_id>14dccfa683b09210e456bed6feaad36d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_14dccfa683b09210e456bed6feaad36d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 18:09:06</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=14dccfa683b09210e456bed6feaad36d"/>
+</record_update>

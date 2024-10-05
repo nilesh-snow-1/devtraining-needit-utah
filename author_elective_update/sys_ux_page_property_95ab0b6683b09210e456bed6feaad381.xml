@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="citibank">af9bc76683b09210e456bed6feaad3e9</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 16:40:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>95ab0b6683b09210e456bed6feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_page_property_95ab0b6683b09210e456bed6feaad381</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 16:40:28</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_58872_needit.af9bc76683b09210e456bed6feaad3e9.root.chrome_footer</unique_name>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=95ab0b6683b09210e456bed6feaad381"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>871156c6dbf1715438f1172913961991</instance_id>
+        <instance_name>dev183489</instance_name>
+        <name>sys_ux_page_property_95ab0b6683b09210e456bed6feaad381</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="citibank">af9bc76683b09210e456bed6feaad3e9</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-25 16:40:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>95ab0b6683b09210e456bed6feaad381</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_page_property_95ab0b6683b09210e456bed6feaad381</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-25 16:40:28</sys_updated_on><type>json</type><unique_name>x_58872_needit.af9bc76683b09210e456bed6feaad3e9.root.chrome_footer</unique_name><value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=95ab0b6683b09210e456bed6feaad381"/></record_update>]]></payload>
+        <payload_hash>984750143</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>a543283783c49210e456bed6feaad397</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 16:40:28</sys_created_on>
+        <sys_id>ddab0b6683b09210e456bed6feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1922a0e3ad40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 16:40:28</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>15ab0b66dab09210068d4e2bd0cf8d82</update_guid>
+        <update_guid_history>15ab0b66dab09210068d4e2bd0cf8d82:984750143</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-25 16:44:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>084235d20a5f48808072b195df9d6440</sys_id>
+        <sys_metadata>95ab0b6683b09210e456bed6feaad381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_95ab0b6683b09210e456bed6feaad381</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_95ab0b6683b09210e456bed6feaad381">ddab0b6683b09210e456bed6feaad382</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-25 16:44:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
