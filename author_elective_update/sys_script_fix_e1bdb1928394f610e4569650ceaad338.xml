@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Test for Demo</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var gr = new GlideRecord("incident");
+gr.addActiveQuery();
+gr.query();
+while (gr.next())
+{
+gs.log("The incident number is " + gr.number)   
+}
+]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 12:14:35</sys_created_on>
+        <sys_id>e1bdb1928394f610e4569650ceaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test for Demo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_fix_e1bdb1928394f610e4569650ceaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 12:14:35</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_es_latest_script action="DELETE">
+        <id>e1bdb1928394f610e4569650ceaad338</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 12:14:34</sys_created_on>
+        <sys_id>1d3e799683d87210e4569650ceaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 12:14:34</sys_updated_on>
+        <table>sys_script_fix</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>871156c6dbf1715438f1172913961991</instance_id>
+        <instance_name>dev183489</instance_name>
+        <name>sys_script_fix_e1bdb1928394f610e4569650ceaad338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;name&gt;Test for Demo&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[var gr = new GlideRecord("incident");
+gr.addActiveQuery();
+gr.query();
+while (gr.next())
+{
+gs.log("The incident number is " + gr.number)   
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-02 12:14:35&lt;/sys_created_on&gt;&lt;sys_id&gt;e1bdb1928394f610e4569650ceaad338&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test for Demo&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_e1bdb1928394f610e4569650ceaad338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-02 12:14:35&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e1bdb1928394f610e4569650ceaad338&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-02 12:14:34&lt;/sys_created_on&gt;&lt;sys_id&gt;1d3e799683d87210e4569650ceaad3b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-02 12:14:34&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_fix&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1492788601</payload_hash>
+        <record_name>Test for Demo</record_name>
+        <reverted_from/>
+        <source>590307b883103210e4569650ceaad366</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 12:14:35</sys_created_on>
+        <sys_id>e93e3d928394f610e4569650ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199a4d87ca70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 12:14:35</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>613e3d92f094f610323a1725da434c86</update_guid>
+        <update_guid_history>613e3d92f094f610323a1725da434c86:1492788601</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-02 12:15:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>2ce599db43b44695a3f50a7ee33c27d1</sys_id>
+        <sys_metadata>e1bdb1928394f610e4569650ceaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test for Demo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_fix_e1bdb1928394f610e4569650ceaad338</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_e1bdb1928394f610e4569650ceaad338">e93e3d928394f610e4569650ceaad386</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-02 12:15:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
